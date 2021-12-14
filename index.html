@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+    <title>Walmart</title>
+</head>
+<body>
+    <section id="top-hyperlinks" class="fixed-top">
+        <div>
+            <div>
+                <a href="">Pickup & delivery</a>
+            </div>
+            <div>
+                <a href="" active>Walmart.com</a>
+            </div>
+        </div>
+    </section>
+    <section id="left-nav" class="fixed-top">
+        <div class="custom-off-canvas">
+            <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i class="fas fa-bars burger"></i></button>
+            <div class="offcanvas offcanvas-start mt-5" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                <div class="offcanvas-header custom-offcanvas-title">
+                <h5 class="offcanvas-title" id="offcanvasScrollingLabel"><img src="https://www.freeiconspng.com/uploads/walmart-logo-png-6.png" width="30" alt="Download Icon Walmart Logo" /></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" style="background-color: white !important;"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <h5 class="mb-4">Walmart.com</h5>
+                    <p><a href="">Track Orders</a></p>
+                    <p><a href="">Buy Again</a></p>
+                    <p><a href="">List</a></p>
+                    <p><a href="">Walmart+</a></p>
+                    <p><a href="">walmart Credit Card</a></p>
+                    <p><a href="">Your Location:</a></p>
+                    <p><a href="">Local Store</a> <span><i class="fas fa-chevron-right"></i></span></p>
+                    <hr>
+                    <h5 class="mb-4">Departments</h5>
+                    <p><a href="">Track Orders</a></p>
+                    <p><a href="">Buy Again</a></p>
+                    <p><a href="">List</a></p>
+                    <p><a href="">Walmart+</a></p>
+                    <p><a href="">walmart Credit Card</a></p>
+                    <p><a href="">Your Location:</a></p>
+                </div>
+            </div>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasWithBackdrop" aria-labelledby="offcanvasWithBackdropLabel">
+                <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasWithBackdropLabel">Offcanvas with backdrop</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                <p>.....</p>
+                </div>
+            </div>
+        </div>
+        <div class="brand">
+            <h6 class="text-light">Walmart</h6>
+            <a href="" title=""><img src="https://www.freeiconspng.com/uploads/walmart-logo-png-6.png" width="350" alt="Download Icon Walmart Logo" /></a>
+        </div>
+        <div class="custom-nav-links container-fluid">
+            <div class="search-bar">
+                <div>
+                    <i class="fas fa-caret-down custom-caret"></i>
+                    <input type="text" placeholder="Search Walmart.com" class="search-input">
+                    <i class="fas fa-search custom-search"></i>
+                </div>
+            </div>
+            <div class="account">
+                <div>
+                    <a href=""><i class="far fa-user"></i><span>Account</span></a>
+                    <a href=""><i class="far fa-heart"></i><span>My Items</span></a>
+                    <a href="" class=""><i class="fas fa-shopping-cart custom-cart position-relative"> <span class="position-absolute top-0 start-100 translate-middle badge rounded-circle bg-warning"> 0<span class="visually-hidden"></span>
+                    </span></i></a>
+                </div>
+            </div>    
+        </div>
+    </section>
+    <br><br><br><br>
+    <section id="sticky-note" class="bg-primary">
+        <div class="container">
+            <h5>Walmart +</h5>
+            <div>
+                <p>Free shipping with no order minimum required. Restrictions apply <br><a href="">Try it free</a></p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="show-case">
+        <div class="container">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators custom-indicator">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="slide-card container">
+                        <div class="row">
+                            <div class="col-3">
+                                <h5><a href="">Get set for school</a></h5>
+                                <p>Porro, aspernatur doloremque hic repudiandae delectus vero.</p>
+                                <button type="button" class="btn btn-outline-primary">Shop now</button>
+                            </div>
+                            <div class="col-9">
+                                <a href=""><img src="https://cdn.corporate.walmart.com/dims4/WMT/9758508/2147483647/strip/true/crop/1650x1076+198+0/resize/920x600!/quality/90/?url=https%3A%2F%2Fcdn.corporate.walmart.com%2Fbe%2Fe6%2Fe876472e4e8e8ff209b5dfbb8ff1%2Fleadimage.jpg" alt="" class="d-block w-100" height="350"></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                  </div>
+                  <div class="carousel-item">
+                    <div class="slide-card container">
+                        <div class="row">
+                            <div class="col-3">
+                                <h5><a href="">Get set for school</a></h5>
+                                <p>Porro, aspernatur doloremque hic repudiandae delectus vero.</p>
+                                <button type="button" class="btn btn-outline-primary">Shop now</button>
+                            </div>
+                            <div class="col-9">
+                                <a href=""><img src="https://cdn.corporate.walmart.com/dims4/WMT/9758508/2147483647/strip/true/crop/1650x1076+198+0/resize/920x600!/quality/90/?url=https%3A%2F%2Fcdn.corporate.walmart.com%2Fbe%2Fe6%2Fe876472e4e8e8ff209b5dfbb8ff1%2Fleadimage.jpg" alt="" class="d-block w-100" height="350"></a>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="slide-card container">
+                        <div class="row">
+                            <div class="col-3">
+                                <h5><a href="">Get set for school</a></h5>
+                                <p>Porro, aspernatur doloremque hic repudiandae delectus vero.</p>
+                                <button type="button" class="btn btn-outline-primary">Shop now</button>
+                            </div>
+                            <div class="col-9">
+                                <a href=""><img src="https://cdn.corporate.walmart.com/dims4/WMT/9758508/2147483647/strip/true/crop/1650x1076+198+0/resize/920x600!/quality/90/?url=https%3A%2F%2Fcdn.corporate.walmart.com%2Fbe%2Fe6%2Fe876472e4e8e8ff209b5dfbb8ff1%2Fleadimage.jpg" alt="" class="d-block w-100" height="350"></a>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+
+    <section class="feedback">
+        <button class="btn btn-outline"><i class="far fa-comment" style="color: brown;"></i> Feedback</button>
+    </section>
+
+    <section id="highlight-card-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="highlight-card">
+                        <h5>Pickup or delivery</h5>
+                        <div class="highlight-card-div">
+                            <img src="https://i5.walmartimages.com/dfw/4ff9c6c9-182b/k2-_9c66a916-9209-4d38-9ca8-66a02f3c7f87.v1.jpg?odnWidth=320&odnHeight=140&odnBg=ffffff" alt="">
+                            <h5>Groceries & even more</h5>
+                            <p>1919 Davis St, San Leandro</p>
+                            <button type="button" class="btn btn-outline-primary">Start your order</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="highlight-card">
+                        <h5>Pickup or delivery</h5>
+                        <div class="highlight-card-div">
+                            <img src="https://i5.walmartimages.com/dfw/4ff9c6c9-182b/k2-_9c66a916-9209-4d38-9ca8-66a02f3c7f87.v1.jpg?odnWidth=320&odnHeight=140&odnBg=ffffff" alt="">
+                            <h5>Groceries & even more</h5>
+                            <p>1919 Davis St, San Leandro</p>
+                            <button type="button" class="btn btn-outline-primary">Start your order</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="highlight-card">
+                        <h5>Pickup or delivery</h5>
+                        <div class="highlight-card-div">
+                            <img src="https://i5.walmartimages.com/dfw/4ff9c6c9-182b/k2-_9c66a916-9209-4d38-9ca8-66a02f3c7f87.v1.jpg?odnWidth=320&odnHeight=140&odnBg=ffffff" alt="">
+                            <h5>Groceries & even more</h5>
+                            <p>1919 Davis St, San Leandro</p>
+                            <button type="button" class="btn btn-outline-primary">Start your order</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section id="category" class="mt-3">
+        <div class="container">
+            <h2 class="text-center p-3">Shop by category</h2>
+            <a href="" class="float-end">see more +</a>
+            <div class="row mt-5">
+                <div class="category-card col-md-3">
+                    <div class="card">
+                        <img src="https://i5.walmartimages.com/asr/5adc32b9-c4b8-43c0-9607-c8f7666e859e_1.529aec958b526620c8f7d25d76f2fa02.jpeg?odnWidth=undefined&odnHeight=undefined&odnBg=ffffff" alt="">
+                        <p>Plus size clothing</p>
+                    </div>
+                </div>
+                <div class="category-card col-md-3">
+                    <div class="card">
+                        <img src="https://i5.walmartimages.com/asr/ebedc396-d50d-4db2-a844-0965c5521897.745480de51d3080056b7cbfc47ddbf31.jpeg?odnWidth=undefined&odnHeight=undefined&odnBg=ffffff" alt="">
+                        <p>Plus size clothing</p>
+                    </div>
+                </div>
+                <div class="category-card col-md-3">
+                    <div class="card">
+                        <img src="https://i5.walmartimages.com/asr/c00accf8-fcdc-4930-9d19-20c2ea73b612.a6f9d7fb3c37e8d76489a293109bc061.jpeg?odnWidth=undefined&odnHeight=undefined&odnBg=ffffff" alt="">
+                        <p>Plus size clothing</p>
+                    </div>
+                </div>
+                <div class="category-card col-md-3">
+                    <div class="card">
+                        <img src="https://i5.walmartimages.com/asr/5adc32b9-c4b8-43c0-9607-c8f7666e859e_1.529aec958b526620c8f7d25d76f2fa02.jpeg?odnWidth=undefined&odnHeight=undefined&odnBg=ffffff" alt="">
+                        <p>Plus size clothing</p>
+                    </div>
+                </div>
+                <div class="category-card col-md-3">
+                    <div class="card">
+                        <img src="https://i5.walmartimages.com/asr/ebedc396-d50d-4db2-a844-0965c5521897.745480de51d3080056b7cbfc47ddbf31.jpeg?odnWidth=undefined&odnHeight=undefined&odnBg=ffffff" alt="">
+                        <p>Plus size clothing</p>
+                    </div>
+                </div>
+                <div class="category-card col-md-3">
+                    <div class="card">
+                        <img src="https://i5.walmartimages.com/asr/c00accf8-fcdc-4930-9d19-20c2ea73b612.a6f9d7fb3c37e8d76489a293109bc061.jpeg?odnWidth=undefined&odnHeight=undefined&odnBg=ffffff" alt="">
+                        <p>Plus size clothing</p>
+                    </div>
+                </div>
+                <div class="category-card col-md-3">
+                    <div class="card">
+                        <img src="https://i5.walmartimages.com/asr/5adc32b9-c4b8-43c0-9607-c8f7666e859e_1.529aec958b526620c8f7d25d76f2fa02.jpeg?odnWidth=undefined&odnHeight=undefined&odnBg=ffffff" alt="">
+                        <p>Plus size clothing</p>
+                    </div>
+                </div>
+                <div class="category-card col-md-3">
+                    <div class="card">
+                        <img src="https://i5.walmartimages.com/asr/c00accf8-fcdc-4930-9d19-20c2ea73b612.a6f9d7fb3c37e8d76489a293109bc061.jpeg?odnWidth=undefined&odnHeight=undefined&odnBg=ffffff" alt="">
+                        <p>Plus size clothing</p>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+        <div class="container mt-3">
+            <h2 class="text-center p-3">Shop by category</h2>
+            <a href="" class="float-end">see more +</a>
+            <div class="row mt-5">
+                <div class="category-card col-md-4 category-card-1">
+                    <div class="card">
+                        <img src="https://i5.walmartimages.com/asr/9111ce1e-53a0-410a-b212-154a3b9c31ac.f0973388e4fa5ca7a083968e335eaa87.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff" alt="">
+                        <p>Plus size clothing</p>
+                    </div>
+                </div>
+                <div class="category-card col-md-4 category-card-1">
+                    <div class="card">
+                        <img src="https://i5.walmartimages.com/asr/d069c2a4-4cd1-4ac1-9d45-961684bf4a48.5d3a3f7849ff64a276d66f5e8f09f9bc.jpeg?odnWidth=undefined&odnHeight=undefined&odnBg=ffffff" alt="">
+                        <p>Plus size clothing</p>
+                    </div>
+                </div>
+                <div class="category-card col-md-4 category-card-1">
+                    <div class="card">
+                        <img src="https://i5.walmartimages.com/asr/3dd44a1f-9e08-4315-bbcd-ea4bd1818336_1.8047fbdbc80f28db6894805846f17eb9.jpeg?odnWidth=undefined&odnHeight=undefined&odnBg=ffffff" alt="">
+                        <p>Plus size clothing</p>
+                    </div>
+                </div>
+                <h2 class="text-center m-3 p-3">Savings spotlight</h2>
+                <a href="" class="float-end">see more +</a>
+                <div class="category-card col-md-4  category-card-1">
+                    <div class="card">
+                        <img src="https://i5.walmartimages.com/asr/d069c2a4-4cd1-4ac1-9d45-961684bf4a48.5d3a3f7849ff64a276d66f5e8f09f9bc.jpeg?odnWidth=undefined&odnHeight=undefined&odnBg=ffffff" alt="">
+                        <p>Plus size clothing</p>
+                    </div>
+                </div>
+                <div class="category-card col-md-4 category-card-1">
+                    <div class="card">
+                        <img src="https://i5.walmartimages.com/asr/9111ce1e-53a0-410a-b212-154a3b9c31ac.f0973388e4fa5ca7a083968e335eaa87.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff" alt="">
+                        <p>Plus size clothing</p>
+                    </div>
+                </div>
+                <div class="category-card col-md-4 category-card-1">
+                    <div class="card">
+                        <img src="https://i5.walmartimages.com/asr/9a82cc41-7b9d-4122-bbb6-1d1d6696dcc9_1.9d918575711317988d6e3fb7e4ee38e6.jpeg?odnWidth=undefined&odnHeight=undefined&odnBg=ffffff" alt="">
+                        <p>Plus size clothing</p>
+                    </div>
+                </div>
+                <h2 class="text-center m-3 p-3">Shop from Trending</h2>
+                <a href="" class="float-end">see more +</a>
+                <div class="category-card col-md-3">
+                    <div class="card">
+                        <img src="https://i5.walmartimages.com/asr/5adc32b9-c4b8-43c0-9607-c8f7666e859e_1.529aec958b526620c8f7d25d76f2fa02.jpeg?odnWidth=undefined&odnHeight=undefined&odnBg=ffffff" alt="">
+                        <p>Plus size clothing</p>
+                    </div>
+                </div>
+                <div class="category-card col-md-3">
+                    <div class="card">
+                        <img src="https://i5.walmartimages.com/asr/ebedc396-d50d-4db2-a844-0965c5521897.745480de51d3080056b7cbfc47ddbf31.jpeg?odnWidth=undefined&odnHeight=undefined&odnBg=ffffff" alt="">
+                        <p>Plus size clothing</p>
+                    </div>
+                </div>
+                <div class="category-card col-md-3">
+                    <div class="card">
+                        <img src="https://i5.walmartimages.com/asr/c00accf8-fcdc-4930-9d19-20c2ea73b612.a6f9d7fb3c37e8d76489a293109bc061.jpeg?odnWidth=undefined&odnHeight=undefined&odnBg=ffffff" alt="">
+                        <p>Plus size clothing</p>
+                    </div>
+                </div>
+                <div class="category-card col-md-3">
+                    <div class="card">
+                        <img src="https://i5.walmartimages.com/asr/5adc32b9-c4b8-43c0-9607-c8f7666e859e_1.529aec958b526620c8f7d25d76f2fa02.jpeg?odnWidth=undefined&odnHeight=undefined&odnBg=ffffff" alt="">
+                        <p>Plus size clothing</p>
+                    </div>
+                </div>
+         </div>
+    </section>
+
+
+   <section id="newsletter" class="mt-5 p-3 container">
+       <div class="newsletter-input">
+           <input type="email" placeholder="Enter email for weekly newsletter.">
+           <button>Sign up</button>
+       </div>
+        <div class="soical-flex">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-pinterest"></i>
+        </div>
+        <div class="mobile">
+            <i class="fas fa-mobile-alt mx-auto"></i>
+            <span>Mobile apps</span>
+        </div>
+   </section>
+   <section id="quick-links">
+       <div class="container quick-links-grid p-5">
+            <div class="services">
+                <h6>Walmart Services</h6>
+                <a href="">Walmart+</a>
+                <a href="">Grocery Pickup & Delivery</a>
+                <a href="">MoneyCenter</a>
+                <a href="">Walmart Credit Card</a>
+                <a href="">Walmart Health</a>
+                <a href="">Walmart Pay</a>
+                <a href="">Walmart Ad</a>
+                <a href="">Other Services</a>
+            </div>
+            <div class="know-us">
+                <h6>Get to Know Us</h6>
+                <a href="">Our Comapany</a>
+                <a href="">Store Directory</a>
+                <a href="">Digital Museum</a>
+                <a href="">Our Suppliers</a>
+                <a href="">Sell on Walmart.com</a>
+                <a href="">Advertise With Us</a>
+                <a href="">Careers</a>
+            </div>
+            <div class="walmart">
+                <h6>Walmart.com</h6>
+                <a href="">Walmart Labs</a>
+                <a href="">Our Ads</a>
+                <a href="">Terms of Use</a>
+                <a href="">Privacy & Security</a>
+                <a href="">CA Privacy Rights</a>
+                <a href="">Do Not Sell My Personal Information</a>
+                <a href="">Request My Personal Information</a>
+                <a href="">Tax Exempt Program</a>
+                <a href="">California Supply Chain Security Act</a>
+            </div>
+            <div class="customer">
+                <h6>Customer Service</h6>
+                <a href="">Help Center</a>
+                <a href="">Returns</a>
+                <a href="">Product Recalls</a>
+                <a href="">Accessibility</a>
+                <a href="">Contact Us</a>
+                <a href="">Store Pickup</a>
+            </div>
+            <div class="spotlight">
+                <h6>In The Spotlight</h6>
+                <a href="">Portable Air Conditioners</a>
+                <a href="">PS4</a>
+                <a href="">Trampoline</a>
+                <a href="">Skateboard</a>
+                <a href="">Outdoor Furniture</a>
+                <a href="">Nintendo Switch Lite</a>
+            </div>
+       </div>
+   </section>
+
+   <section id="shop-brand" class="mt-5 mb-3">
+        <div class="container">
+            <div class="row shop-brand-flex">
+                <h6 class="mb-5 text-center">Shop Our Brands</h6>
+                <img src="https://cdn-fsly.yottaa.net/53c6d66786305e30e100018d/www.moosejaw.com/v~4b.82e/moosejaw/Moosejaw/images/homepage/logos/logo-mj.png?yocs=NA_5r_" alt="">
+                <img src="https://cdn-fsly.yottaa.net/53c6d66786305e30e100018d/www.moosejaw.com/v~4b.82e/moosejaw/Moosejaw/images/homepage/logos/logo-bd.png?yocs=NA_5r_" alt="">
+                <img src="https://cdn-fsly.yottaa.net/53c6d66786305e30e100018d/www.moosejaw.com/v~4b.82e/moosejaw/Moosejaw/images/homepage/logos/logo-mj.png?yocs=NA_5r_" alt="">
+                <img src="https://cdn-fsly.yottaa.net/53c6d66786305e30e100018d/www.moosejaw.com/v~4b.82e/moosejaw/Moosejaw/images/homepage/logos/logo-bd.png?yocs=NA_5r_" alt="">
+                <img src="https://cdn-fsly.yottaa.net/53c6d66786305e30e100018d/www.moosejaw.com/v~4b.82e/moosejaw/Moosejaw/images/homepage/logos/logo-mj.png?yocs=NA_5r_" alt="">
+                <img src="https://cdn-fsly.yottaa.net/53c6d66786305e30e100018d/www.moosejaw.com/v~4b.82e/moosejaw/Moosejaw/images/homepage/logos/logo-bd.png?yocs=NA_5r_" alt="">
+                <img src="https://cdn-fsly.yottaa.net/53c6d66786305e30e100018d/www.moosejaw.com/v~4b.82e/moosejaw/Moosejaw/images/homepage/logos/logo-mj.png?yocs=NA_5r_" alt="">
+            </div>
+            <hr>
+            <div class="note">
+                <p>&copy; 2021 Walmart. All Rights Reserved.</p>
+                <p>To ensure we are able to help you as best we can, please include your reference number: ENZ8CYT755</p>
+            </div>
+        </div>
+   </section>
+   
+
+</body>
+</html>
